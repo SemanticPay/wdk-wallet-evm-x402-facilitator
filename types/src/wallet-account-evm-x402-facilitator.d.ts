@@ -84,7 +84,7 @@ export default class WalletAccountEvmX402Facilitator implements FacilitatorEvmSi
      * @param {VerifyTypedDataArgs} args - The verification arguments.
      * @returns {Promise<boolean>}
      */
-    verifyTypedData({ domain, types, message, signature }: VerifyTypedDataArgs): Promise<boolean>;
+    verifyTypedData({ address, domain, types, primaryType, message, signature }: VerifyTypedDataArgs): Promise<boolean>;
     /**
      * Write to a contract (send a state-changing transaction).
      *

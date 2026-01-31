@@ -109,8 +109,8 @@ export default class WalletAccountEvmX402Facilitator {
    * @param {VerifyTypedDataArgs} args - The verification arguments.
    * @returns {Promise<boolean>}
    */
-  async verifyTypedData ({ domain, types, message, signature }) {
-    return await this._adaptee.verifyTypedData({ domain, types, message }, signature)
+  async verifyTypedData ({ address, domain, types, primaryType, message, signature }) {
+    return await this._adaptee.verifyTypedData({ address, domain, types, primaryType, message }, signature)
   }
 
   /**

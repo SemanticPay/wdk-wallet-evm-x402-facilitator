@@ -82,7 +82,7 @@ describe('WalletAccountEvmX402Facilitator', () => {
 
       expect(result).toBe(true)
       expect(adaptee.verifyTypedData).toHaveBeenCalledWith(
-        { domain: DOMAIN, types: TYPES, message: MESSAGE },
+        { address: ADDRESS, domain: DOMAIN, types: TYPES, primaryType: 'Message', message: MESSAGE },
         SIGNATURE
       )
     })
