@@ -61,7 +61,7 @@ import { Contract } from 'ethers'
  *
  * @implements {FacilitatorEvmSigner}
  */
-export default class walletaccountevmx402facilitator {
+export default class WalletAccountEvmX402Facilitator {
   /**
    * Creates a new facilitator EVM signer adapter.
    *

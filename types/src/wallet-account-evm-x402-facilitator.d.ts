@@ -9,7 +9,7 @@
  *
  * @implements {FacilitatorEvmSigner}
  */
-export default class walletaccountevmx402facilitator implements FacilitatorEvmSigner {
+export default class WalletAccountEvmX402Facilitator implements FacilitatorEvmSigner {
     /**
      * Creates a new facilitator EVM signer adapter.
      *

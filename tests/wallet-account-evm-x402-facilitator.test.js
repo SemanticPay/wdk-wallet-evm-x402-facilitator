@@ -1,6 +1,6 @@
 import { beforeEach, describe, expect, jest, test } from '@jest/globals'
 
-import { walletaccountevmx402facilitator } from '../index.js'
+import { WalletAccountEvmX402Facilitator } from '../index.js'
 
 const ADDRESS = '0x405005C7c4422390F4B334F64Cf20E0b767131d0'
 const CONTRACT_ADDRESS = '0xa460AEbce0d3A4BecAd8ccf9D6D4861296c503Bd'
@@ -20,12 +20,12 @@ function createMockAdaptee (overrides = {}) {
   }
 }
 
-describe('walletaccountevmx402facilitator', () => {
+describe('WalletAccountEvmX402Facilitator', () => {
   let adaptee, facilitator
 
   beforeEach(() => {
     adaptee = createMockAdaptee()
-    facilitator = new walletaccountevmx402facilitator(adaptee)
+    facilitator = new WalletAccountEvmX402Facilitator(adaptee)
   })
 
   describe('constructor', () => {

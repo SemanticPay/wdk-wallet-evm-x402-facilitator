@@ -1,4 +1,4 @@
-export { default as walletaccountevmx402facilitator } from "./src/wallet-account-evm-x402-facilitator.js";
+export { default as WalletAccountEvmX402Facilitator } from "./src/wallet-account-evm-x402-facilitator.js";
 export type ReadContractArgs = import("./src/wallet-account-evm-x402-facilitator.js").ReadContractArgs;
 export type VerifyTypedDataArgs = import("./src/wallet-account-evm-x402-facilitator.js").VerifyTypedDataArgs;
 export type WriteContractArgs = import("./src/wallet-account-evm-x402-facilitator.js").WriteContractArgs;
