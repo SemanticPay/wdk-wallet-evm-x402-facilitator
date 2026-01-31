@@ -14,7 +14,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/SemanticPay/wdk-x402-evm.git"
+    "url": "git://github.com/SemanticPay/wdk-wallet-evm-x402-facilitator.git"
   },
   "main": "index.js",
   "type": "module",
